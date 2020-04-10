@@ -1,0 +1,15 @@
+{
+  "name": "databse",
+  "version": "1.0.0",
+  "description": "This is the  database for our microservices",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "<Your Name>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
+  }
+}
