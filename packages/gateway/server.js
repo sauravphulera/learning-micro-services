@@ -9,4 +9,5 @@ server
   .use(bodyParser.json())
   .use("/graphql", graphqlExpress({ schema }))
   .use("/gq", graphiqlExpress({ endpointURL: "/graphql" }))
+  .get("/", (_,res) => res.redirect('/gq'))
   .listen(port, () => console.log(`server on ${port}`));
