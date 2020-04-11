@@ -4,7 +4,9 @@
   "description": "This is the  database for our microservices",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && npm start",
+    "start": "node server.js"
   },
   "author": "<Your Name>",
   "license": "ISC",

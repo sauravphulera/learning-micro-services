@@ -5,9 +5,11 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "start": "pm2 start ecosystem.config.js"
+    "build": "npm install && npm start",
+    "start": "pm2-runtime start ecosystem.config.js --env production"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "pm2": "^4.2.3"
   }
 }
